@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kanji Flashcards</title>
+<title>Kanji znaky</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=530" />
@@ -17,34 +17,34 @@
     <div id="control">
         <input type="checkbox" id="control-hider" />
         <div id="control-header">
-            <span id="title">Kanji Flashcards</span>
+            <span id="title">Kanji znaky</span>
             <span id="count">0/0</span>
             <label for="control-hider" id="control-label">settings</label>
         </div>
         <div id="control-body">
-            <button id="new" disabled>New deck...</button>
-            <button id="undo" disabled>Can't undo</button>
+            <button id="new" disabled>Nový balíček ...</button>
+            <button id="undo" disabled>Nejde zpět</button>
             <div id="settings-show">
                 <div class="settings-half">
                     <div class="settings-label">Show on front:</div>
                     <div><input type="checkbox" id="front-kanji" checked /> <label for="front-kanji">Kanji</label></div>
                     <div><input type="checkbox" id="front-on-yomi" /> <label for="front-on-yomi">On-Yomi</label></div>
                     <div><input type="checkbox" id="front-kun-yomi" /> <label for="front-kun-yomi">Kun-Yomi</label></div>
-                    <div><input type="checkbox" id="front-nanori" /> <label for="front-nanori">Kun-Yomi (names)</label></div>
-                    <div><input type="checkbox" id="front-meanings" /> <label for="front-meanings">English meanings</label></div>
+                    <div><input type="checkbox" id="front-nanori" /> <label for="front-nanori">Kun-Yomi (jména)</label></div>
+                    <div><input type="checkbox" id="front-meanings" /> <label for="front-meanings">Význam</label></div>
                 </div>
                 <div class="settings-half">
                     <div class="settings-label">Show on back:</div>
                     <div><input type="checkbox" id="back-kanji" checked /> <label for="back-kanji">Kanji</label></div>
                     <div><input type="checkbox" id="back-on-yomi" checked /> <label for="back-on-yomi">On-Yomi</label></div>
                     <div><input type="checkbox" id="back-kun-yomi" checked /> <label for="back-kun-yomi">Kun-Yomi</label></div>
-                    <div><input type="checkbox" id="back-nanori" /> <label for="back-nanori">Kun-Yomi (names)</label></div>
-                    <div><input type="checkbox" id="back-meanings" checked /> <label for="back-meanings">English meanings</label></div>
+                    <div><input type="checkbox" id="back-nanori" /> <label for="back-nanori">Kun-Yomi (jména)</label></div>
+                    <div><input type="checkbox" id="back-meanings" checked /> <label for="back-meanings">Význam</label></div>
                 </div>
             </div>
             <div id="settings-style">
                 <div class="settings-half">
-                    <label for="theme-select">Theme: </label><select id="theme-select">
+                    <label for="theme-select">Styl: </label><select id="theme-select">
                         <option value="deepforest">Deepforest</option>
                         <option value="paper">Paper</option>
                     </select>
@@ -57,13 +57,13 @@
                 </div>
             </div>
             <div id="acknowledgements">
-                This app uses the <a href="http://www.csse.monash.edu.au/~jwb/kanjidic.html">KANJIDIC</a> dictionary file, which is the property of the <a href="http://www.edrdg.org/">Electronic Dictionary Research and Development Group</a>, and is used in conformance with the Group's <a href="http://www.edrdg.org/edrdg/licence.html">licence</a>.
+                Kanji znaky používají <a href="http://www.csse.monash.edu.au/~jwb/kanjidic.html">KANJIDIC</a> soubor, který je vlastnictvím <a href="http://www.edrdg.org/">Electronic Dictionary Research and Development Group</a>, a podléhá jejich <a href="http://www.edrdg.org/edrdg/licence.html">licenci</a>.
             </div>
         </div>
     </div>
     <div id="status">
         <noscript>
-        This page requires javascript to do anything remotely interesting.
+        Tato aplikace vyžaduje javascript.
         </noscript>
     </div>
     <div id="card" class="hidden">
@@ -78,9 +78,9 @@
     </div>
     <div id="finished" class="hidden">
         <div id="finished-buttons">
-            <button id="continue">Continue</button>
-            <button id="start-over">Start over</button>
-            <button id="finished-new">New deck...</button>
+            <button id="continue">Pokračovat</button>
+            <button id="start-over">Začít znovu</button>
+            <button id="finished-new">Nová sada ...</button>
         </div>
         <div class="finished-half">
             <div id="incorrect-label">✕</div>
