@@ -84,13 +84,13 @@
     float: right;
 }
 #control-label:before {
-    content: "Show ";
+    content: "Zobrazit ";
 }
 #control-label:after {
     content: " ▼";
 }
 #control-hider:checked ~ #control-header #control-label:before {
-    content: "Hide ";
+    content: "Schovat ";
 }
 #control-hider:checked ~ #control-header #control-label:after {
     content: " ▲";
