@@ -181,9 +181,9 @@ function update_display () {
         }
         if (show_tutorial) {
             if (!flipped)
-                $("#status").text("Make a guess and click anywhere to check the answer.").removeClass("hidden");
+                $("#status").text("Zkuste uhádnout znak a poté klikněte na znak pro odpověď.").removeClass("hidden");
             else {
-                $("#status").text("Was your guess correct?").removeClass("hidden");
+                $("#status").text("Uhodli jste správně?").removeClass("hidden");
             }
         }
         else {
