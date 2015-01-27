@@ -211,7 +211,7 @@ function update_display () {
     }
     if (deck_i != 0) {
         var symbol = correct[correct.length-1] == deck[deck_i-1] ? "〇" : "✕";
-        $("#undo").text("Undo " + symbol + " " + deck[deck_i-1])[0].disabled = false;
+        $("#undo").text("Zpátky " + symbol + " " + deck[deck_i-1])[0].disabled = false;
     }
     else {
         $("#undo").text("Can't undo")[0].disabled = true;
